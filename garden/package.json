@@ -1,0 +1,22 @@
+{
+    "name": "zen-garden-space",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass-watch": "node-sass -w --source-map true style.scss -o ./ --importer=node_modules/node-sass-tilde-importer",
+        "sass": "node-sass --source-map true style.scss -o ./ --importer=node_modules/node-sass-tilde-importer"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "Carson Fairbourn",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "node-sass": "^4.11.0",
+        "node-sass-tilde-importer": "^1.0.2"
+    }
+}
